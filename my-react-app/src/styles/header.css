@@ -1,0 +1,27 @@
+.restaurant-header {
+  background: linear-gradient(to right, #e63946, #f1faee);
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #fff;
+  border-bottom: 6px solid #a4161a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header-content {
+
+  margin: 0 auto;
+}
+
+.restaurant-name {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #a4161a;
+}
+
+.restaurant-tagline {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #fcefee;
+}
