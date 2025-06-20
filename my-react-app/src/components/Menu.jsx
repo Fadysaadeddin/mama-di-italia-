@@ -6,14 +6,22 @@ const Menu = () => {
   return (
     <div className="menu-container">
       {Object.entries(menuData).map(([category, items]) => (
-        <div key={category} className="menu-section">
+        <div
+          key={category}
+          className="menu-section"
+          id={category.replace(/\s+/g, "").toLowerCase()}
+        >
           <h2 className="category-title">{category}</h2>
           <div className="menu-grid">
             {items.map((item) => (
               <div key={item.id} className="menu-card">
                 {/* imageUrl is optional; handle gracefully if not provided */}
                 {item.imageUrl && (
-                  <img src={item.imageUrl} alt={item.name} className="menu-img" />
+                  <img
+                    src={item.imageUrl}
+                    alt={item.name}
+                    className="menu-img"
+                  />
                 )}
                 <div className="menu-info">
                   <h3 className="menu-name">{item.name}</h3>
@@ -30,4 +38,3 @@ const Menu = () => {
 };
 
 export default Menu;
-

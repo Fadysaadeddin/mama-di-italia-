@@ -3,36 +3,50 @@ import "../styles/categoriesScroller.css";
 
 const categories = [
   "Special Mama Pizza",
-  "Pizza with Meat",
-  "Pizza with Fish",
-  "Pizza Vegetarian",
-  "Kapsalon",
+  "Pizzas With Meat",
+  "Pizzas With Fish",
+  "Vegetarian Pizzas",
+  "Kapsalon Menu",
   "Turkish Pizzas",
-  "Durum Wrap",
-  "Turkish Brood",
-  "Pita Brood",
-  "Spare-Ribs",
+  "Durum Wraps",
+  "Turkish Bread",
+  "Pita Bread",
+  "Spare Ribs",
   "Dishes",
   "Mixed Dishes",
   "Mixed Grill",
-  "Pastas from the Oven",
-  "Steak",
+  "Pastas From Oven",
+  "Steaks",
   "Hamburgers",
   "Salads",
-  "Children's Menu",
+  "children Menu",
   "Soups",
-  "Appetizer",
-  "Drinks and Extras",
-  "Beer",
-  "Magnum Pints 440ml"
+  "Appetizers",
+  "Drinks And Extras",
+  "Beers",
 ];
+
+const scrollToCategory = (category) => {
+  const sectionId = category.replace(/\s+/g, "").toLowerCase();
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
 
 const CategoriesScroller = () => {
   return (
     <div className="categories-container">
       <div className="categories-scroll">
         {categories.map((category, index) => (
-          <div key={index} className="category-pill">
+          <div
+            key={index}
+            className="category-pill"
+            onClick={() => scrollToCategory(category)}
+            tabIndex={0}
+            role="button"
+            style={{ userSelect: "none" }}
+          >
             {category}
           </div>
         ))}
