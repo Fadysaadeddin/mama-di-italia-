@@ -1,8 +1,11 @@
+const imageUrl =
+  "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTvDlXZoM7oLpPoC3i6v6vGqgM7u_QB8pT4gv6Afp40mM4PSfayqcE4__k5BCfsYRsHtgGWlCFu43mEJ2s8ZW2I4JGnissOB9fsZrEDJaDgPR5JDnmHVuM7qQ&usqp=CAc";
+
 const menuData = {
   "Special Mama Pizza": [
     {
       id: "1",
-      url: "/menu/52",
+      url: imageUrl,
       name: "Pizza Donna Mamma",
       price: "from €17,00",
       description:
@@ -10,7 +13,7 @@ const menuData = {
     },
     {
       id: "2",
-      url: "/menu/53",
+      url: imageUrl,
       name: "Pizza Surf & Turf",
       price: "from €16,00",
       description: "Half Surf (fish) and half Turf (meat) of your choice",
@@ -19,21 +22,21 @@ const menuData = {
   "Pizzas With Meat": [
     {
       id: "3",
-      url: "/menu/54",
+      url: imageUrl,
       name: "Pizza pollo",
       price: "€15,00",
       description: "Tomato sauce, cheese and grilled chicken breast",
     },
     {
       id: "4",
-      url: "/menu/55",
+      url: imageUrl,
       name: "Pizza pollo Hawaii",
       price: "€16,00",
       description: "Grilled chicken breast, pineapple, tomato sauce and cheese",
     },
     {
       id: "5",
-      url: "/menu/56",
+      url: imageUrl,
       name: "Pizza pollo special",
       price: "€16,00",
       description:
@@ -41,14 +44,14 @@ const menuData = {
     },
     {
       id: "6",
-      url: "/menu/57",
+      url: imageUrl,
       name: "Pizza chicken satay",
       price: "€15,00",
       description: "Grilled chicken breast, satay sauce and peanuts",
     },
     {
       id: "7",
-      url: "/menu/58",
+      url: imageUrl,
       name: "Pizza BBQ chicken",
       price: "€16,00",
       description:
@@ -56,14 +59,14 @@ const menuData = {
     },
     {
       id: "8",
-      url: "/menu/59",
+      url: imageUrl,
       name: "Pizza shawarma",
       price: "€15,00",
       description: "With shawarma, tomato sauce and cheese",
     },
     {
       id: "9",
-      url: "/menu/60",
+      url: imageUrl,
       name: "Pizza shawarma special",
       price: "€16,00",
       description:
@@ -71,35 +74,35 @@ const menuData = {
     },
     {
       id: "10",
-      url: "/menu/61",
+      url: imageUrl,
       name: "Pizza salami",
       price: "€14,00",
       description: "Tomato sauce, cheese and beef salami",
     },
     {
       id: "11",
-      url: "/menu/62",
+      url: imageUrl,
       name: "Pizza salami special",
       price: "€15,00",
       description: "Salami, pineapple, tomato sauce and cheese",
     },
     {
       id: "12",
-      url: "/menu/63",
+      url: imageUrl,
       name: "Pizza roma",
       price: "€16,00",
       description: "Tomato sauce, cheese, shawarma and mushrooms",
     },
     {
       id: "13",
-      url: "/menu/64",
+      url: imageUrl,
       name: "Pizza döner",
       price: "€15,00",
       description: "Tomato sauce, cheese and döner",
     },
     {
       id: "14",
-      url: "/menu/65",
+      url: imageUrl,
       name: "Pizza döner special",
       price: "€16,00",
       description:
@@ -107,7 +110,7 @@ const menuData = {
     },
     {
       id: "15",
-      url: "/menu/66",
+      url: imageUrl,
       name: "Pizza beconare",
       price: "€16,00",
       description:
@@ -115,21 +118,21 @@ const menuData = {
     },
     {
       id: "16",
-      url: "/menu/67",
+      url: imageUrl,
       name: "Pizza beconare special",
       price: "€15,00",
       description: "Bacon, ham, tomato sauce, beef salami and cheese",
     },
     {
       id: "17",
-      url: "/menu/68",
+      url: imageUrl,
       name: "Pizza boromeo",
       price: "€14,00",
       description: "With ham, tomato sauce and cheese",
     },
     {
       id: "18",
-      url: "/menu/69",
+      url: imageUrl,
       name: "Pizza brivido",
       price: "€15,00",
       description:
@@ -137,14 +140,14 @@ const menuData = {
     },
     {
       id: "19",
-      url: "/menu/70",
+      url: imageUrl,
       name: "Pizza bolognese",
       price: "€14,00",
       description: "With house bolognese sauce and cheese",
     },
     {
       id: "20",
-      url: "/menu/71",
+      url: imageUrl,
       name: "Pizza bolognese special",
       price: "€15,00",
       description:
@@ -152,49 +155,49 @@ const menuData = {
     },
     {
       id: "21",
-      url: "/menu/72",
+      url: imageUrl,
       name: "Pizza prosciutto",
       price: "€14,00",
       description: "Tomato sauce, cheese, mozzarella, ham and arugula",
     },
     {
       id: "22",
-      url: "/menu/73",
+      url: imageUrl,
       name: "Pizza capriciosa",
       price: "€15,00",
       description: "Tomato sauce, cheese, ham and mushrooms",
     },
     {
       id: "23",
-      url: "/menu/74",
+      url: imageUrl,
       name: "Pizza capri",
       price: "€15,00",
       description: "Tomato sauce, cheese, salami and mushrooms",
     },
     {
       id: "24",
-      url: "/menu/75",
+      url: imageUrl,
       name: "Pizza Hawaii",
       price: "€15,00",
       description: "Tomato sauce, cheese, ham and pineapple",
     },
     {
       id: "25",
-      url: "/menu/76",
+      url: imageUrl,
       name: "Pizza tropicale",
       price: "€15,00",
       description: "Tomato sauce, cheese, ham, pineapple and mozzarella",
     },
     {
       id: "26",
-      url: "/menu/77",
+      url: imageUrl,
       name: "Pizza picante",
       price: "€15,00",
       description: "Tomato sauce, cheese, salami, onion and jalapenos",
     },
     {
       id: "27",
-      url: "/menu/78",
+      url: imageUrl,
       name: "Pizza peperoni special",
       price: "€15,00",
       description:
@@ -202,7 +205,7 @@ const menuData = {
     },
     {
       id: "28",
-      url: "/menu/79",
+      url: imageUrl,
       name: "Pizza quattro stagioni",
       price: "€15,00",
       description:
@@ -210,14 +213,14 @@ const menuData = {
     },
     {
       id: "29",
-      url: "/menu/80",
+      url: imageUrl,
       name: "Pizza con carne",
       price: "€14,00",
       description: "Seasoned minced meat, tomato sauce and cheese",
     },
     {
       id: "30",
-      url: "/menu/81",
+      url: imageUrl,
       name: "Pizza con care speciaal",
       price: "€15,00",
       description:
@@ -225,7 +228,7 @@ const menuData = {
     },
     {
       id: "31",
-      url: "/menu/82",
+      url: imageUrl,
       name: "Pizza calzone",
       price: "€16,00",
       description:
@@ -233,7 +236,7 @@ const menuData = {
     },
     {
       id: "32",
-      url: "/menu/83",
+      url: imageUrl,
       name: "Pizza fantasia meat",
       price: "€16,00",
       description:
@@ -241,14 +244,14 @@ const menuData = {
     },
     {
       id: "33",
-      url: "/menu/84",
+      url: imageUrl,
       name: "Pizzetta carbonara",
       price: "€16,00",
       description: "Tomato sauce, cheese, chicken breast, bacon and broccoli",
     },
     {
       id: "34",
-      url: "/menu/85",
+      url: imageUrl,
       name: "Pizza prosciutto di Parma",
       price: "€14,00",
       description:
@@ -256,14 +259,14 @@ const menuData = {
     },
     {
       id: "35",
-      url: "/menu/86",
+      url: imageUrl,
       name: "Pizza San Marino",
       price: "€15,00",
       description: "Tomato sauce, cheese, salami, onion, bacon and basil (18+)",
     },
     {
       id: "36",
-      url: "/menu/87",
+      url: imageUrl,
       name: "Pizza Mamma Mia",
       price: "€16,00",
       description:
@@ -273,7 +276,7 @@ const menuData = {
   "Pizzas With Fish": [
     {
       id: "37",
-      url: "/menu/88",
+      url: imageUrl,
       name: "Pizza al capone",
       price: "€16,00",
       description:
@@ -281,42 +284,42 @@ const menuData = {
     },
     {
       id: "38",
-      url: "/menu/89",
+      url: imageUrl,
       name: "Pizza scampi",
       price: "€15,00",
       description: "With shrimps, tomato sauce and cheese",
     },
     {
       id: "39",
-      url: "/menu/90",
+      url: imageUrl,
       name: "Pizza pescatore",
       price: "€16,00",
       description: "With shrimps, mussels, tomato sauce and cheese",
     },
     {
       id: "40",
-      url: "/menu/91",
+      url: imageUrl,
       name: "Pizza marinara speciale",
       price: "€16,00",
       description: "With tuna, mussels, shrimps, tomato sauce and cheese",
     },
     {
       id: "41",
-      url: "/menu/92",
+      url: imageUrl,
       name: "Pizza frutti di mare",
       price: "€15,00",
       description: "With fish-cocktail, tomato sauce and cheese",
     },
     {
       id: "42",
-      url: "/menu/93",
+      url: imageUrl,
       name: "Pizza tonno",
       price: "€15,00",
       description: "With tuna, red onions, tomato sauce and cheese",
     },
     {
       id: "43",
-      url: "/menu/94",
+      url: imageUrl,
       name: "Pizza salmone",
       price: "€15,00",
       description:
@@ -324,21 +327,21 @@ const menuData = {
     },
     {
       id: "44",
-      url: "/menu/95",
+      url: imageUrl,
       name: "Pizza napoli",
       price: "€14,00",
       description: "With anchovies, olives, tomato sauce and cheese",
     },
     {
       id: "45",
-      url: "/menu/96",
+      url: imageUrl,
       name: "Pizza napolitana",
       price: "€15,00",
       description: "With anchovies, capers, olives, tomato sauce and cheese",
     },
     {
       id: "46",
-      url: "/menu/97",
+      url: imageUrl,
       name: "Pizza fantasia fish",
       price: "€17,00",
       description:
@@ -348,7 +351,7 @@ const menuData = {
   "Vegetarian Pizzas": [
     {
       id: "47",
-      url: "/menu/98",
+      url: imageUrl,
       name: "Pizza vegetariana",
       price: "€15,00",
       description:
@@ -356,84 +359,84 @@ const menuData = {
     },
     {
       id: "48",
-      url: "/menu/99",
+      url: imageUrl,
       name: "Pizza cipolla",
       price: "€12,00",
       description: "Tomato sauce, cheese and red onions",
     },
     {
       id: "49",
-      url: "/menu/100",
+      url: imageUrl,
       name: "Pizza peperone",
       price: "€13,00",
       description: "Tomato sauce, cheese, bell pepper and chili pepper",
     },
     {
       id: "50",
-      url: "/menu/101",
+      url: imageUrl,
       name: "Pizza mexicana",
       price: "€14,00",
       description: "Tomato sauce, cheese, pepper, capers, corn and spicy herbs",
     },
     {
       id: "51",
-      url: "/menu/102",
+      url: imageUrl,
       name: "Pizza calzone vegatariana",
       price: "€15,00",
       description: "Closed pizza with all vegetables, tomato sauce and cheese",
     },
     {
       id: "52",
-      url: "/menu/103",
+      url: imageUrl,
       name: "Pizza quattro formaggio",
       price: "€15,00",
       description: "With four types of cheese and tomato sauce",
     },
     {
       id: "53",
-      url: "/menu/104",
+      url: imageUrl,
       name: "Pizza gorgonzola",
       price: "€13,00",
       description: "With gorgonzola cheese and tomato sauce",
     },
     {
       id: "54",
-      url: "/menu/105",
+      url: imageUrl,
       name: "Pizza mozzarella",
       price: "€13,00",
       description: "With mozzarella cheese and tomato sauce",
     },
     {
       id: "55",
-      url: "/menu/106",
+      url: imageUrl,
       name: "Pizza patatosa",
       price: "€13,00",
       description: "With fries, cheese, tomato sauce, thyme and olive oil",
     },
     {
       id: "56",
-      url: "/menu/107",
+      url: imageUrl,
       name: "Pizza banana",
       price: "€12,00",
       description: "With or without tomato sauce, cheese and fresh banana",
     },
     {
       id: "57",
-      url: "/menu/108",
+      url: imageUrl,
       name: "Pizza pineapple",
       price: "€12,00",
       description: "With or without tomato sauce, cheese and pineapple",
     },
     {
       id: "58",
-      url: "/menu/109",
+      url: imageUrl,
       name: "Pizza Nutella",
       price: "€13,00",
       description: "With banana, Nutella and caramel",
     },
     {
       id: "59",
-      url: "/menu/110",
+      url: imageUrl,
       name: "Pizza caprese",
       price: "€14,00",
       description:
@@ -441,7 +444,7 @@ const menuData = {
     },
     {
       id: "60",
-      url: "/menu/111",
+      url: imageUrl,
       name: "Pizza bianca feta-mozzarella",
       price: "€14,00",
       description:
@@ -451,7 +454,7 @@ const menuData = {
   "Kapsalon Menu": [
     {
       id: "61",
-      url: "/menu/112",
+      url: imageUrl,
       name: "Kapsalon döner",
       price: "from €11,99",
       description:
@@ -459,7 +462,7 @@ const menuData = {
     },
     {
       id: "62",
-      url: "/menu/113",
+      url: imageUrl,
       name: "Kapsalon döner special",
       price: "from €11,99",
       description:
@@ -467,7 +470,7 @@ const menuData = {
     },
     {
       id: "63",
-      url: "/menu/114",
+      url: imageUrl,
       name: "Kapsalon shawarma",
       price: "€11,99",
       description:
@@ -475,7 +478,7 @@ const menuData = {
     },
     {
       id: "64",
-      url: "/menu/115",
+      url: imageUrl,
       name: "Kapsalon shawarma gyros",
       price: "€11,99",
       description:
@@ -483,7 +486,7 @@ const menuData = {
     },
     {
       id: "65",
-      url: "/menu/116",
+      url: imageUrl,
       name: "Kapsalon shawarma Hawaii",
       price: "€11,99",
       description:
@@ -491,7 +494,7 @@ const menuData = {
     },
     {
       id: "66",
-      url: "/menu/117",
+      url: imageUrl,
       name: "Kapsalon chicken breast",
       price: "€11,99",
       description:
@@ -499,7 +502,7 @@ const menuData = {
     },
     {
       id: "67",
-      url: "/menu/118",
+      url: imageUrl,
       name: "Kapsalon chicken speciaal",
       price: "€11,99",
       description:
@@ -507,7 +510,7 @@ const menuData = {
     },
     {
       id: "68",
-      url: "/menu/119",
+      url: imageUrl,
       name: "Kapsalon hot chicken",
       price: "€11,99",
       description:
@@ -515,7 +518,7 @@ const menuData = {
     },
     {
       id: "69",
-      url: "/menu/120",
+      url: imageUrl,
       name: "Kapsalon chicken Hawaii",
       price: "€11,99",
       description:
@@ -523,7 +526,7 @@ const menuData = {
     },
     {
       id: "70",
-      url: "/menu/121",
+      url: imageUrl,
       name: "Kapsalon mix shawarma with chicken fillet",
       price: "€11,99",
       description:
@@ -531,7 +534,7 @@ const menuData = {
     },
     {
       id: "71",
-      url: "/menu/122",
+      url: imageUrl,
       name: "Kapsalon mix shawarma with veal",
       price: "€11,99",
       description:
@@ -539,45 +542,45 @@ const menuData = {
     },
     {
       id: "72",
-      url: "/menu/123",
+      url: imageUrl,
       name: "Kapsalon mix shawarma with chicken döner",
       price: "€11,99",
       description:
         "Shawarma, chicken döner, cheese, sauce. Lettuce, tomatoes and cucumber separately",
     },
   ],
- " Turkish Pizzas": [
+  " Turkish Pizzas": [
     {
       id: "73",
-      url: "/menu/124",
+      url: imageUrl,
       name: "Turkish pizza",
       price: "€7,00",
       description: "With lettuce and sauce",
     },
     {
       id: "74",
-      url: "/menu/125",
+      url: imageUrl,
       name: "Turkish pizza cheese",
       price: "€8,00",
       description: "With melted cheese, lettuce and sauce",
     },
     {
       id: "75",
-      url: "/menu/126",
+      url: imageUrl,
       name: "Turkish pizza shawarma",
       price: "€10,00",
       description: "With shawarma, lettuce and sauce",
     },
     {
       id: "76",
-      url: "/menu/127",
+      url: imageUrl,
       name: "Turkish pizza shawarma Hawaii",
       price: "€10,00",
       description: "With shawarma meat, pineapple, lettuce and sauce",
     },
     {
       id: "77",
-      url: "/menu/128",
+      url: imageUrl,
       name: "Turkish pizza shawarma gyros",
       price: "€10,00",
       description:
@@ -585,14 +588,14 @@ const menuData = {
     },
     {
       id: "78",
-      url: "/menu/129",
+      url: imageUrl,
       name: "Turkish pizza chicken breast",
       price: "€10,00",
       description: "Grilled chicken fillet, sauce and lettuce",
     },
     {
       id: "79",
-      url: "/menu/130",
+      url: imageUrl,
       name: "Turkish pizza chicken breast special",
       price: "€10,00",
       description:
@@ -600,7 +603,7 @@ const menuData = {
     },
     {
       id: "80",
-      url: "/menu/131",
+      url: imageUrl,
       name: "Turkish pizza hot chicken",
       price: "€10,00",
       description:
@@ -608,44 +611,44 @@ const menuData = {
     },
     {
       id: "81",
-      url: "/menu/132",
+      url: imageUrl,
       name: "Turkish pizza veal döner",
       price: "€10,00",
       description: "Veal döner, sauce and lettuce",
     },
     {
       id: "82",
-      url: "/menu/133",
+      url: imageUrl,
       name: "Turkish pizza chicken döner",
       price: "€10,00",
       description: "Chicken döner, sauce and lettuce",
     },
   ],
- "Durum Wraps": [
+  "Durum Wraps": [
     {
       id: "83",
-      url: "/menu/134",
+      url: imageUrl,
       name: "Dürüm veal döner",
       price: "€9,00",
       description: "Veal döner, sauce and salad",
     },
     {
       id: "84",
-      url: "/menu/135",
+      url: imageUrl,
       name: "Dürüm chicken döner",
       price: "€9,00",
       description: "Chicken döner, sauce and salad",
     },
     {
       id: "85",
-      url: "/menu/136",
+      url: imageUrl,
       name: "Dürüm chicken breast",
       price: "€9,00",
       description: "Grilled chicken fillet, sauce and lettuce",
     },
     {
       id: "86",
-      url: "/menu/137",
+      url: imageUrl,
       name: "Dürüm chicken special",
       price: "€9,00",
       description:
@@ -653,14 +656,14 @@ const menuData = {
     },
     {
       id: "87",
-      url: "/menu/138",
+      url: imageUrl,
       name: "Dürüm chicken Hawaii",
       price: "€9,00",
       description: "Grilled chicken fillet with pineapple, sauce and lettuce",
     },
     {
       id: "88",
-      url: "/menu/139",
+      url: imageUrl,
       name: "Dürüm hot chicken",
       price: "€9,00",
       description:
@@ -668,14 +671,14 @@ const menuData = {
     },
     {
       id: "89",
-      url: "/menu/140",
+      url: imageUrl,
       name: "Dürüm shawarna",
       price: "€9,00",
       description: "Shawarma, sauce and lettuce",
     },
     {
       id: "90",
-      url: "/menu/141",
+      url: imageUrl,
       name: "Dürüm shawarna gyros",
       price: "€9,00",
       description:
@@ -683,7 +686,7 @@ const menuData = {
     },
     {
       id: "91",
-      url: "/menu/142",
+      url: imageUrl,
       name: "Dürüm shawarma Hawaii",
       price: "€9,00",
       description: "With shawarma, pineapple, lettuce and sauce",
@@ -692,28 +695,28 @@ const menuData = {
   "Turkish Bread": [
     {
       id: "92",
-      url: "/menu/143",
+      url: imageUrl,
       name: "Döner kebab",
       price: "€9,00",
       description: "Turkish bread, döner, sauce and lettuce",
     },
     {
       id: "93",
-      url: "/menu/144",
+      url: imageUrl,
       name: "Veal doner",
       price: "€9,00",
       description: "Turkish bread, veal döner, sauce and lettuce",
     },
     {
       id: "94",
-      url: "/menu/145",
+      url: imageUrl,
       name: "Shawarna",
       price: "€9,00",
       description: "With shawarma, lettuce and sauce",
     },
     {
       id: "95",
-      url: "/menu/146",
+      url: imageUrl,
       name: "Chicken breast",
       price: "€9,00",
       description: "Grilled chicken breast, sauce and lettuce",
@@ -722,35 +725,35 @@ const menuData = {
   "Pita Bread": [
     {
       id: "96",
-      url: "/menu/147",
+      url: imageUrl,
       name: "Pita chicken döner",
       price: "€9,00",
       description: "Chicken döner, pita bread and sauce",
     },
     {
       id: "97",
-      url: "/menu/148",
+      url: imageUrl,
       name: "Pita veal döner",
       price: "€9,00",
       description: "Veal döner, pita bread and sauce",
     },
     {
       id: "98",
-      url: "/menu/149",
+      url: imageUrl,
       name: "Pita shawarma",
       price: "€9,00",
       description: "Shawarma meat, pita bread and sauce",
     },
     {
       id: "99",
-      url: "/menu/150",
+      url: imageUrl,
       name: "Pita shawarma Hawaï",
       price: "€9,00",
       description: "Shawarma meat, pineapple, pita bread and sauce",
     },
     {
       id: "100",
-      url: "/menu/151",
+      url: imageUrl,
       name: "Pita shoarma gyros",
       price: "€9,00",
       description:
@@ -758,14 +761,14 @@ const menuData = {
     },
     {
       id: "101",
-      url: "/menu/152",
+      url: imageUrl,
       name: "Pita chicken breast",
       price: "€9,00",
       description: "Grilled chicken breast, pita bread and sauce",
     },
     {
       id: "102",
-      url: "/menu/153",
+      url: imageUrl,
       name: "Pita chicken breast special",
       price: "€9,00",
       description:
@@ -773,7 +776,7 @@ const menuData = {
     },
     {
       id: "103",
-      url: "/menu/154",
+      url: imageUrl,
       name: "Pita hot chicken",
       price: "€9,00",
       description:
@@ -781,77 +784,77 @@ const menuData = {
     },
     {
       id: "104",
-      url: "/menu/155",
+      url: imageUrl,
       name: "Pita chicken breast Hawaï",
       price: "€9,00",
       description: "Chicken breast, pineapple, pita bread and sauce",
     },
     {
       id: "105",
-      url: "/menu/156",
+      url: imageUrl,
       name: "Pita cheese",
       price: "€3,00",
       description: "Melted cheese and pita bread",
     },
     {
       id: "106",
-      url: "/menu/157",
+      url: imageUrl,
       name: "Pita ham and cheese",
       price: "€4,00",
       description: "Pita bread, melted cheese and ham",
     },
     {
       id: "107",
-      url: "/menu/158",
+      url: imageUrl,
       name: "Pita Hawaï",
       price: "from €4,50",
       description: "Pita bread, melted cheese, ham and pineapple",
     },
     {
       id: "108",
-      url: "/menu/159",
+      url: imageUrl,
       name: "Pita gezond",
       price: "€4,50",
       description: "Melted cheese, lettuce, tomatoes and cucumber",
     },
     {
       id: "109",
-      url: "/menu/160",
+      url: imageUrl,
       name: "Baguette cheese",
       price: "€5,00",
       description: "Melted cheese and baguette",
     },
     {
       id: "110",
-      url: "/menu/161",
+      url: imageUrl,
       name: "Baguette ham cheese",
       price: "€6,00",
       description: "Melted cheese, ham and baguette",
     },
     {
       id: "111",
-      url: "/menu/162",
+      url: imageUrl,
       name: "Stokbrood gezond",
       price: "from €6,00",
       description: "Melted cheese, lettuce, tomatoes and cucumber",
     },
     {
       id: "112",
-      url: "/menu/163",
+      url: imageUrl,
       name: "Container of shawarma",
       price: "€12,00",
       description: "Extra shawarma meat, pita bread and sauce",
     },
     {
       id: "113",
-      url: "/menu/164",
+      url: imageUrl,
       name: "Container of shawarma Hawaï",
       price: "€12,00",
       description: "Extra shawarma meat, pineapple, pita bread and sauce",
     },
     {
       id: "114",
-      url: "/menu/165",
+      url: imageUrl,
       name: "Container of shawarma special",
       price: "€12,00",
       description:
@@ -859,21 +862,21 @@ const menuData = {
     },
     {
       id: "115",
-      url: "/menu/166",
+      url: imageUrl,
       name: "Container of super veal döner",
       price: "€12,00",
       description: "Extra veal döner, pita bread and sauce",
     },
     {
       id: "116",
-      url: "/menu/167",
+      url: imageUrl,
       name: "Container of chicken döner",
       price: "€12,00",
       description: "Extra chicken döner, pita bread and sauce",
     },
     {
       id: "117",
-      url: "/menu/168",
+      url: imageUrl,
       name: "Container of chicken döner special",
       price: "€12,00",
       description:
@@ -881,14 +884,14 @@ const menuData = {
     },
     {
       id: "118",
-      url: "/menu/169",
+      url: imageUrl,
       name: "Container of chicken breast",
       price: "€12,00",
       description: "Extra grilled chicken breast, sauce and pita bread",
     },
     {
       id: "119",
-      url: "/menu/170",
+      url: imageUrl,
       name: "Container of hot chicken",
       price: "€12,00",
       description:
@@ -896,7 +899,7 @@ const menuData = {
     },
     {
       id: "120",
-      url: "/menu/171",
+      url: imageUrl,
       name: "Container of chicken breast special",
       price: "€12,00",
       description:
@@ -907,7 +910,7 @@ const menuData = {
   "Spare Ribs": [
     {
       id: "121",
-      url: "/menu/172",
+      url: imageUrl,
       name: "Special of the house",
       price: "from €16,00",
       description:
@@ -915,7 +918,7 @@ const menuData = {
     },
     {
       id: "122",
-      url: "/menu/173",
+      url: imageUrl,
       name: "Cranberry",
       price: "from €16,00",
       description:
@@ -923,7 +926,7 @@ const menuData = {
     },
     {
       id: "123",
-      url: "/menu/174",
+      url: imageUrl,
       name: "Honing",
       price: "from €16,00",
       description:
@@ -931,7 +934,7 @@ const menuData = {
     },
     {
       id: "124",
-      url: "/menu/175",
+      url: imageUrl,
       name: "Hot",
       price: "from €16,00",
       description:
@@ -939,7 +942,7 @@ const menuData = {
     },
     {
       id: "125",
-      url: "/menu/176",
+      url: imageUrl,
       name: "BBQ",
       price: "from €16,00",
       description:
@@ -947,10 +950,10 @@ const menuData = {
     },
   ],
 
-  "Dishes": [
+  Dishes: [
     {
       id: "126",
-      url: "/menu/1",
+      url: imageUrl,
       name: "Shawarma dish",
       price: "€16,00",
       description:
@@ -958,7 +961,7 @@ const menuData = {
     },
     {
       id: "127",
-      url: "/menu/2",
+      url: imageUrl,
       name: "Shawarma cheese dish",
       price: "€16,00",
       description:
@@ -966,7 +969,7 @@ const menuData = {
     },
     {
       id: "128",
-      url: "/menu/3",
+      url: imageUrl,
       name: "Shawarma gyros dish",
       price: "€16,00",
       description:
@@ -974,7 +977,7 @@ const menuData = {
     },
     {
       id: "129",
-      url: "/menu/4",
+      url: imageUrl,
       name: "Shawarma Hawaï dish",
       price: "€16,00",
       description:
@@ -982,7 +985,7 @@ const menuData = {
     },
     {
       id: "130",
-      url: "/menu/5",
+      url: imageUrl,
       name: "Shawarma Siciliana",
       price: "€16,00",
       description:
@@ -990,7 +993,7 @@ const menuData = {
     },
     {
       id: "131",
-      url: "/menu/6",
+      url: imageUrl,
       name: "Chicken breast dish",
       price: "€16,00",
       description:
@@ -998,7 +1001,7 @@ const menuData = {
     },
     {
       id: "132",
-      url: "/menu/7",
+      url: imageUrl,
       name: "Chicken breast special dish",
       price: "€16,00",
       description:
@@ -1006,7 +1009,7 @@ const menuData = {
     },
     {
       id: "133",
-      url: "/menu/8",
+      url: imageUrl,
       name: "Hot chicken dish",
       price: "€16,00",
       description:
@@ -1014,7 +1017,7 @@ const menuData = {
     },
     {
       id: "134",
-      url: "/menu/9",
+      url: imageUrl,
       name: "Chicken Hawaï dish",
       price: "€16,00",
       description:
@@ -1022,7 +1025,7 @@ const menuData = {
     },
     {
       id: "135",
-      url: "/menu/10",
+      url: imageUrl,
       name: "Chicken breast Siciliana",
       price: "€16,00",
       description:
@@ -1030,7 +1033,7 @@ const menuData = {
     },
     {
       id: "136",
-      url: "/menu/11",
+      url: imageUrl,
       name: "Chicken satay dish",
       price: "€16,00",
       description:
@@ -1038,7 +1041,7 @@ const menuData = {
     },
     {
       id: "137",
-      url: "/menu/12",
+      url: imageUrl,
       name: "Chicken schnitzel dish",
       price: "€16,00",
       description:
@@ -1046,7 +1049,7 @@ const menuData = {
     },
     {
       id: "138",
-      url: "/menu/13",
+      url: imageUrl,
       name: "Shaslick dish",
       price: "€16,00",
       description:
@@ -1054,7 +1057,7 @@ const menuData = {
     },
     {
       id: "139",
-      url: "/menu/14",
+      url: imageUrl,
       name: "Kebab dish",
       price: "€16,00",
       description:
@@ -1062,7 +1065,7 @@ const menuData = {
     },
     {
       id: "140",
-      url: "/menu/15",
+      url: imageUrl,
       name: "Döner dish",
       price: "€16,00",
       description:
@@ -1070,7 +1073,7 @@ const menuData = {
     },
     {
       id: "141",
-      url: "/menu/16",
+      url: imageUrl,
       name: "Veal döner dish",
       price: "€16,00",
       description:
@@ -1078,7 +1081,7 @@ const menuData = {
     },
     {
       id: "142",
-      url: "/menu/17",
+      url: imageUrl,
       name: "Döner special dish",
       price: "€16,00",
       description:
@@ -1086,7 +1089,7 @@ const menuData = {
     },
     {
       id: "143",
-      url: "/menu/18",
+      url: imageUrl,
       name: "Lamb chop dish",
       price: "€17,00",
       description:
@@ -1094,7 +1097,7 @@ const menuData = {
     },
     {
       id: "144",
-      url: "/menu/19",
+      url: imageUrl,
       name: "Salmon dish",
       price: "€17,00",
       description:
@@ -1102,7 +1105,7 @@ const menuData = {
     },
     {
       id: "145",
-      url: "/menu/20",
+      url: imageUrl,
       name: "Chicken funghi",
       price: "€17,00",
       description:
@@ -1112,7 +1115,7 @@ const menuData = {
   "Mixed Dishes": [
     {
       id: "146",
-      url: "/menu/mixed/1",
+      url: imageUrl,
       name: "Shawarma and chicken special",
       price: "€20,00",
       description:
@@ -1120,7 +1123,7 @@ const menuData = {
     },
     {
       id: "147",
-      url: "/menu/mixed/2",
+      url: imageUrl,
       name: "Shawarma and hot chicken",
       price: "€20,00",
       description:
@@ -1128,7 +1131,7 @@ const menuData = {
     },
     {
       id: "148",
-      url: "/menu/mixed/3",
+      url: imageUrl,
       name: "Shawarma and chicken Hawaii",
       price: "€20,00",
       description:
@@ -1136,7 +1139,7 @@ const menuData = {
     },
     {
       id: "149",
-      url: "/menu/mixed/4",
+      url: imageUrl,
       name: "Shawarma and chicken breast",
       price: "€20,00",
       description:
@@ -1144,7 +1147,7 @@ const menuData = {
     },
     {
       id: "150",
-      url: "/menu/mixed/5",
+      url: imageUrl,
       name: "Shawarma and döner",
       price: "€20,00",
       description:
@@ -1152,7 +1155,7 @@ const menuData = {
     },
     {
       id: "151",
-      url: "/menu/mixed/6",
+      url: imageUrl,
       name: "Shawarma and chicken satay",
       price: "€20,00",
       description:
@@ -1160,7 +1163,7 @@ const menuData = {
     },
     {
       id: "152",
-      url: "/menu/mixed/7",
+      url: imageUrl,
       name: "Shawarma and shaslick",
       price: "€20,00",
       description:
@@ -1168,7 +1171,7 @@ const menuData = {
     },
     {
       id: "153",
-      url: "/menu/mixed/8",
+      url: imageUrl,
       name: "Shawarma and kebab",
       price: "€20,00",
       description:
@@ -1176,7 +1179,7 @@ const menuData = {
     },
     {
       id: "154",
-      url: "/menu/mixed/9",
+      url: imageUrl,
       name: "Shawarma and lamb chops",
       price: "€20,00",
       description:
@@ -1184,7 +1187,7 @@ const menuData = {
     },
     {
       id: "155",
-      url: "/menu/mixed/10",
+      url: imageUrl,
       name: "Shawarma and spare ribs",
       price: "€20,00",
       description:
@@ -1192,7 +1195,7 @@ const menuData = {
     },
     {
       id: "156",
-      url: "/menu/mixed/11",
+      url: imageUrl,
       name: "Two types of meat of your choice",
       price: "from €20,00",
       description: "",
@@ -1201,7 +1204,7 @@ const menuData = {
   "Mixed Grill": [
     {
       id: "157",
-      url: "/menu/mixedgrill/1",
+      url: imageUrl,
       name: "Mixed grill A (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1209,7 +1212,7 @@ const menuData = {
     },
     {
       id: "158",
-      url: "/menu/mixedgrill/2",
+      url: imageUrl,
       name: "Mixed grill B (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1217,7 +1220,7 @@ const menuData = {
     },
     {
       id: "159",
-      url: "/menu/mixedgrill/3",
+      url: imageUrl,
       name: "Mixed grill C (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1225,7 +1228,7 @@ const menuData = {
     },
     {
       id: "160",
-      url: "/menu/mixedgrill/4",
+      url: imageUrl,
       name: "Mixed grill E (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1233,7 +1236,7 @@ const menuData = {
     },
     {
       id: "161",
-      url: "/menu/mixedgrill/5",
+      url: imageUrl,
       name: "Mixed grill D (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1241,7 +1244,7 @@ const menuData = {
     },
     {
       id: "162",
-      url: "/menu/mixedgrill/6",
+      url: imageUrl,
       name: "Mixed grill F (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1249,7 +1252,7 @@ const menuData = {
     },
     {
       id: "163",
-      url: "/menu/mixedgrill/7",
+      url: imageUrl,
       name: "Mixed grill G (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1257,7 +1260,7 @@ const menuData = {
     },
     {
       id: "164",
-      url: "/menu/mixedgrill/8",
+      url: imageUrl,
       name: "Mixed grill H (three kinds of meat)",
       price: "from €23,00",
       description:
@@ -1265,7 +1268,7 @@ const menuData = {
     },
     {
       id: "165",
-      url: "/menu/mixedgrill/9",
+      url: imageUrl,
       name: "Mixed grill (four kinds of meat)",
       price: "from €25,00",
       description:
@@ -1273,7 +1276,7 @@ const menuData = {
     },
     {
       id: "166",
-      url: "/menu/mixedgrill/10",
+      url: imageUrl,
       name: "Mixed grill (five kinds of meat)",
       price: "from €28,00",
       description:
@@ -1281,24 +1284,24 @@ const menuData = {
     },
     {
       id: "167",
-      url: "/menu/mixedgrill/11",
+      url: imageUrl,
       name: "Mixed grill extra large 4 persons",
       price: "€85,00",
       description: "Shawarma, chicken, doner, kebab, lamb chops and shaslick",
     },
   ],
 
- "Steaks": [
+  Steaks: [
     {
       id: "168",
-      url: "/menu/201",
+      url: imageUrl,
       name: "Bistecca",
       price: 17.0,
       description: "Grilled steak, fries, lettuce, pita bread, choice of sauce",
     },
     {
       id: "169",
-      url: "/menu/202",
+      url: imageUrl,
       name: "Bistecca funghi",
       price: 18.0,
       description:
@@ -1306,7 +1309,7 @@ const menuData = {
     },
     {
       id: "170",
-      url: "/menu/203",
+      url: imageUrl,
       name: "Bistecca Siciliana",
       price: 19.0,
       description:
@@ -1314,7 +1317,7 @@ const menuData = {
     },
     {
       id: "171",
-      url: "/menu/204",
+      url: imageUrl,
       name: "T-bone steak funghi",
       price: 28.0,
       description:
@@ -1322,41 +1325,41 @@ const menuData = {
     },
     {
       id: "172",
-      url: "/menu/205",
+      url: imageUrl,
       name: "T-bone steak Siciliana",
       price: 30.0,
       description:
         "T-bone steak with vegetables in tomato sauce, fries, lettuce, pita bread, choice of sauce",
     },
   ],
-  "Hamburgers": [
+  Hamburgers: [
     {
       id: "173",
-      url: "/menu/15",
+      url: imageUrl,
       name: "Hamburger natural",
       price: 7.0,
       description: "Hamburger and bun",
     },
     {
       id: "174",
-      url: "/menu/16",
+      url: imageUrl,
       name: "Hamburger with cheese",
       price: 8.0,
       description: "Hamburger, cheddar, mayonnaise, ketchup, lettuce, tomato",
     },
     {
       id: "175",
-      url: "/menu/17",
+      url: imageUrl,
       name: "Hamburger with cheese and bacon",
       price: 10.0,
       description:
         "Hamburger, cheddar, bacon, mayonnaise, ketchup, lettuce, tomato",
     },
   ],
-  "Salads": [
+  Salads: [
     {
       id: "176",
-      url: "/menu/18",
+      url: imageUrl,
       name: "Insalata feta",
       price: "€10,00",
       description:
@@ -1364,7 +1367,7 @@ const menuData = {
     },
     {
       id: "177",
-      url: "/menu/19",
+      url: imageUrl,
       name: "Insalata mista",
       price: "€10,00",
       description:
@@ -1372,7 +1375,7 @@ const menuData = {
     },
     {
       id: "178",
-      url: "/menu/20",
+      url: imageUrl,
       name: "Insalata caprese",
       price: "€10,00",
       description:
@@ -1380,7 +1383,7 @@ const menuData = {
     },
     {
       id: "179",
-      url: "/menu/21",
+      url: imageUrl,
       name: "Insalata all rucola",
       price: "€10,00",
       description:
@@ -1388,7 +1391,7 @@ const menuData = {
     },
     {
       id: "180",
-      url: "/menu/22",
+      url: imageUrl,
       name: "Insalata tonno",
       price: "€10,00",
       description:
@@ -1396,7 +1399,7 @@ const menuData = {
     },
     {
       id: "181",
-      url: "/menu/23",
+      url: imageUrl,
       name: "Insalata salmone",
       price: "€11,00",
       description:
@@ -1404,7 +1407,7 @@ const menuData = {
     },
     {
       id: "182",
-      url: "/menu/24",
+      url: imageUrl,
       name: "Chicken salad",
       price: "€11,00",
       description: "Special of the chef",
@@ -1413,42 +1416,42 @@ const menuData = {
   "children Menu": [
     {
       id: "183",
-      url: "/menu/25",
+      url: imageUrl,
       name: "Spaghetti",
       price: "€8,99",
       description: "With cream sauce",
     },
     {
       id: "184",
-      url: "/menu/26",
+      url: imageUrl,
       name: "Kids pizza",
       price: "€10,99",
       description: "With salami, ham or pineapple, tomato sauce and cheese",
     },
     {
       id: "185",
-      url: "/menu/27",
+      url: imageUrl,
       name: "Kids pizza margherita",
       price: "€8,99",
       description: "With tomato sauce and cheese",
     },
     {
       id: "186",
-      url: "/menu/28",
+      url: imageUrl,
       name: "Hamburger",
       price: "€6,99",
       description: "With fries and sauce",
     },
     {
       id: "187",
-      url: "/menu/29",
+      url: imageUrl,
       name: "Chicken nugget",
       price: "€6,99",
       description: "With fries and sauce",
     },
     {
       id: "188",
-      url: "/menu/30",
+      url: imageUrl,
       name: "Chicken schnitzel",
       price: "€8,00",
       description: "Chicken schnitzel, fries and sauce",
@@ -1457,216 +1460,216 @@ const menuData = {
   "Pastas From Oven": [
     {
       id: "189",
-      url: "/menu/31",
+      url: imageUrl,
       name: "Lasagna",
       price: "€15,00",
       description: "Minced meat, bolognese sauce, béchamel and cheese",
     },
     {
       id: "190",
-      url: "/menu/32",
+      url: imageUrl,
       name: "Ravioli",
       price: "€15,00",
       description: "Stuffed pasta with meat, bolognese sauce and cheese",
     },
     {
       id: "191",
-      url: "/menu/33",
+      url: imageUrl,
       name: "Ravioli vegetarian",
       price: "€15,00",
       description: "Spinach, Napolitana sauce and cheese",
     },
     {
       id: "192",
-      url: "/menu/34",
+      url: imageUrl,
       name: "Canneloni",
       price: "€15,00",
       description: "Meat filling, bolognese sauce and cheese",
     },
     {
       id: "193",
-      url: "/menu/35",
+      url: imageUrl,
       name: "Mistro the chef",
       price: "€15,00",
       description: "Mix of lasagna, ravioli, canneloni and cheese",
     },
   ],
-  "Pastas": [
+  Pastas: [
     {
       id: "194",
-      url: "/menu/36",
+      url: imageUrl,
       name: "Pasta gamberetto",
       price: "€15,00",
       description: "Shrimp, garlic, cream sauce and parmesan",
     },
     {
       id: "195",
-      url: "/menu/37",
+      url: imageUrl,
       name: "Pasta bella di mare pesto",
       price: "€15,00",
       description: "Shrimp in spicy tomato cream sauce with pesto",
     },
     {
       id: "196",
-      url: "/menu/38",
+      url: imageUrl,
       name: "Pasta pollo",
       price: "€15,00",
       description: "Chicken fillet, mushrooms, cream sauce and parmesan",
     },
     {
       id: "197",
-      url: "/menu/39",
+      url: imageUrl,
       name: "Pasta pesto pollo",
       price: "€15,00",
       description: "Chicken, pesto, garlic, cream sauce and parmesan",
     },
     {
       id: "198",
-      url: "/menu/40",
+      url: imageUrl,
       name: "Pasta pollo bella",
       price: "€16,00",
       description: "Chicken, bacon, pineapple, gorgonzola in curry cream sauce",
     },
     {
       id: "199",
-      url: "/menu/41",
+      url: imageUrl,
       name: "Pasta pollo special",
       price: "€16,00",
       description: "Chicken, peppers, onions, mushrooms, cream sauce",
     },
     {
       id: "200",
-      url: "/menu/42",
+      url: imageUrl,
       name: "Pasta bolognese",
       price: "€15,00",
       description: "Bolognese sauce, garlic and parmesan",
     },
     {
       id: "201",
-      url: "/menu/43",
+      url: imageUrl,
       name: "Pasta tonno",
       price: "€15,00",
       description: "Tuna, garlic and tomato sauce",
     },
     {
       id: "202",
-      url: "/menu/44",
+      url: imageUrl,
       name: "Pasta tuna special",
       price: "€16,00",
       description: "Tuna, garlic, vegetables and parmesan",
     },
     {
       id: "203",
-      url: "/menu/45",
+      url: imageUrl,
       name: "Pasta salmone",
       price: "€15,00",
       description: "Smoked salmon, cream sauce, garlic and dill",
     },
     {
       id: "204",
-      url: "/menu/46",
+      url: imageUrl,
       name: "Pasta salmon special",
       price: "€16,00",
       description: "Salmon, vegetables, cream sauce and dill",
     },
     {
       id: "205",
-      url: "/menu/47",
+      url: imageUrl,
       name: "Pasta carbonara",
       price: "€15,00",
       description: "Bacon, egg, garlic, cream and parmesan",
     },
     {
       id: "206",
-      url: "/menu/48",
+      url: imageUrl,
       name: "Pasta gorgonzola",
       price: "€14,00",
       description: "Gorgonzola, cream sauce and parmesan",
     },
     {
       id: "207",
-      url: "/menu/49",
+      url: imageUrl,
       name: "Pasta siciliana",
       price: "€15,00",
       description: "Vegetables, tomato sauce, garlic and parmesan",
     },
     {
       id: "208",
-      url: "/menu/50",
+      url: imageUrl,
       name: "Pasta funghi",
       price: "€14,00",
       description: "Mushrooms, garlic, cream sauce and parmesan",
     },
     {
       id: "209",
-      url: "/menu/51",
+      url: imageUrl,
       name: "Pasta frutti di mare",
       price: "€15,00",
       description: "Seafood in cream sauce and garlic",
     },
   ],
-  "Soups": [
+  Soups: [
     {
       id: "210",
-      url: "/menu/soups/1",
+      url: imageUrl,
       name: "Tomato soup",
       price: "€7,50",
       description: "",
     },
     {
       id: "211",
-      url: "/menu/soups/2",
+      url: imageUrl,
       name: "Vegetable soup",
       price: "€7,50",
       description: "",
     },
     {
       id: "212",
-      url: "/menu/soups/3",
+      url: imageUrl,
       name: "Chicken soup",
       price: "€7,50",
       description: "",
     },
     {
       id: "213",
-      url: "/menu/soups/4",
+      url: imageUrl,
       name: "Fish soup",
       price: "€7,50",
       description: "",
     },
     {
       id: "214",
-      url: "/menu/soups/5",
+      url: imageUrl,
       name: "Lentil soup",
       price: "€7,50",
       description: "",
     },
   ],
-  "Appetizers": [
+  Appetizers: [
     {
       id: "215",
-      url: "/menu/appetizers/1",
+      url: imageUrl,
       name: "Shrimps cocktail",
       price: "€10,00",
       description: "Shrimps, whiskey sauce and iceberg lettuce",
     },
     {
       id: "216",
-      url: "/menu/appetizers/2",
+      url: imageUrl,
       name: "Grilled shrimps",
       price: "€12,00",
       description: "From the grill with fresh garlic and Italian herbs",
     },
     {
       id: "217",
-      url: "/menu/appetizers/3",
+      url: imageUrl,
       name: "Funghi mamma",
       price: "€10,00",
       description: "Fried mushrooms with fresh garlic and cream sauce",
     },
     {
       id: "218",
-      url: "/menu/appetizers/4",
+      url: imageUrl,
       name: "Cozze pomodore",
       price: "€12,00",
       description:
@@ -1674,7 +1677,7 @@ const menuData = {
     },
     {
       id: "219",
-      url: "/menu/appetizers/5",
+      url: imageUrl,
       name: "Baguette with garlic butter",
       price: "€6,00",
       description: "",
@@ -1683,91 +1686,91 @@ const menuData = {
   "Drinks And Extras": [
     {
       id: "220",
-      url: "/menu/drinks/1",
+      url: imageUrl,
       name: "Fries",
       price: 4.0,
       description: "",
     },
     {
       id: "221",
-      url: "/menu/drinks/2",
+      url: imageUrl,
       name: "Fanta",
       price: "€2,50",
       description: "",
     },
     {
       id: "222",
-      url: "/menu/drinks/3",
+      url: imageUrl,
       name: "Cola",
       price: "€2,50",
       description: "Contains caffeine (10mg/100ml)",
     },
     {
       id: "223",
-      url: "/menu/drinks/4",
+      url: imageUrl,
       name: "Coca-Cola zero",
       price: "€2,50",
       description: "",
     },
     {
       id: "224",
-      url: "/menu/drinks/5",
+      url: imageUrl,
       name: "7-Up",
       price: "€2,50",
       description: "",
     },
     {
       id: "225",
-      url: "/menu/drinks/6",
+      url: imageUrl,
       name: "Sprite",
       price: "€2,50",
       description: "",
     },
     {
       id: "226",
-      url: "/menu/drinks/7",
+      url: imageUrl,
       name: "Spa still water",
       price: "€2,50",
       description: "",
     },
     {
       id: "227",
-      url: "/menu/drinks/8",
+      url: imageUrl,
       name: "Spa sparkling water",
       price: "€2,50",
       description: "",
     },
     {
       id: "228",
-      url: "/menu/drinks/9",
+      url: imageUrl,
       name: "Cassis",
       price: "€2,50",
       description: "",
     },
     {
       id: "229",
-      url: "/menu/drinks/10",
+      url: imageUrl,
       name: "Lipton ice tea",
       price: "€2,50",
       description: "",
     },
     {
       id: "230",
-      url: "/menu/drinks/11",
+      url: imageUrl,
       name: "Chocomel",
       price: "€3,00",
       description: "",
     },
     {
       id: "231",
-      url: "/menu/drinks/12",
+      url: imageUrl,
       name: "Fristi",
       price: "€3,00",
       description: "",
     },
     {
       id: "232",
-      url: "/menu/drinks/13",
+      url: imageUrl,
       name: "Red Bull Energy Drink 250ml",
       price: "€3,50",
       description:
@@ -1775,93 +1778,93 @@ const menuData = {
     },
     {
       id: "233",
-      url: "/menu/drinks/14",
+      url: imageUrl,
       name: "Yoghurt ayran",
       price: "€2,00",
       description: "",
     },
     {
       id: "234",
-      url: "/menu/drinks/15",
+      url: imageUrl,
       name: "AA Drink",
       price: "€3,50",
       description: "",
     },
     {
       id: "235",
-      url: "/menu/drinks/16",
+      url: imageUrl,
       name: "Fernandes red",
       price: "€2,50",
       description: "",
     },
     {
       id: "236",
-      url: "/menu/drinks/17",
+      url: imageUrl,
       name: "Pita bread",
       price: "€1,00",
       description: "",
     },
     {
       id: "237",
-      url: "/menu/drinks/18",
+      url: imageUrl,
       name: "Garlic sauce",
       price: "€1,00",
       description: "",
     },
     {
       id: "238",
-      url: "/menu/drinks/19",
+      url: imageUrl,
       name: "Onion sauce",
       price: "€1,00",
       description: "",
     },
     {
       id: "239",
-      url: "/menu/drinks/20",
+      url: imageUrl,
       name: "Whiskey sauce",
       price: "€1,00",
       description: "Age restriction 18 plus",
     },
     {
       id: "240",
-      url: "/menu/drinks/21",
+      url: imageUrl,
       name: "Satay sauce",
       price: "€2,00",
       description: "",
     },
     {
       id: "241",
-      url: "/menu/drinks/22",
+      url: imageUrl,
       name: "Mayonnaise",
       price: "€1,00",
       description: "",
     },
     {
       id: "242",
-      url: "/menu/drinks/23",
+      url: imageUrl,
       name: "Sambal",
       price: "€1,00",
       description: "",
     },
     {
       id: "243",
-      url: "/menu/drinks/24",
+      url: imageUrl,
       name: "Ketchup",
       price: "€1,00",
       description: "",
     },
     {
       id: "244",
-      url: "/menu/drinks/25",
+      url: imageUrl,
       name: "BBQ sauce",
       price: "€2,00",
       description: "",
     },
   ],
-  "Beers": [
+  Beers: [
     {
       id: "245",
-      url: "/menu/beers/1",
+      url: imageUrl,
       name: "Heineken Premium Pilsener Beer 330ml",
       price: "€2,85",
       description:
@@ -1869,14 +1872,14 @@ const menuData = {
     },
     {
       id: "246",
-      url: "/menu/beers/2",
+      url: imageUrl,
       name: "Jupiler beer",
       price: "€3,00",
       description: "Age restriction 18 plus",
     },
     {
       id: "247",
-      url: "/menu/beers/3",
+      url: imageUrl,
       name: "Hertog Jan",
       price: "€3,00",
       description: "Age restriction 18 plus",
