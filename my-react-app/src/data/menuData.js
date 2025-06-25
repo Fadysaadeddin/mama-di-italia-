@@ -38,7 +38,7 @@ const menuData = {
       id: "5",
       url: imageUrl,
       name: "Pizza pollo special",
-      price: "€16,00",
+      price: "€20,00",
       description:
         "Grilled chicken breast, bell pepper, onion, mushroom, tomato sauce and cheese",
     },

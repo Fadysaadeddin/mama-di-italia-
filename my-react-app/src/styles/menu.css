@@ -59,3 +59,86 @@
   font-weight: bold;
   color: #ff6347;
 }
+
+.menu-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(34, 34, 34, 0.55);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s;
+}
+
+.menu-modal {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  max-width: 95vw;
+  width: 370px;
+  text-align: center;
+  position: relative;
+  animation: popIn 0.2s;
+}
+
+.menu-modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #e63946;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu-modal-img {
+  width: 90%;
+  max-width: 320px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.menu-modal-title {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.3rem 0;
+  color: #218838;
+}
+
+.menu-modal-description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.7rem;
+}
+
+.menu-modal-price {
+  font-size: 1.15rem;
+  color: #e63946;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes popIn {
+  from {
+    transform: scale(0.92);
+  }
+  to {
+    transform: scale(1);
+  }
+}
