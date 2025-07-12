@@ -26,23 +26,17 @@ const categories = [
   "Beers",
 ];
 
-const scrollToCategory = (category) => {
-  const sectionId = category.replace(/\s+/g, "").toLowerCase();
-  const section = document.getElementById(sectionId);
-  if (section) {
-    section.scrollIntoView({ behavior: "smooth" });
-  }
-};
-
-const CategoriesScroller = () => {
+const CategoriesScroller = ({ onCategoryClick, activeCategory }) => {
   return (
     <div className="categories-container">
       <div className="categories-scroll">
         {categories.map((category, index) => (
           <div
             key={index}
-            className="category-pill"
-            onClick={() => scrollToCategory(category)}
+            className={`category-pill${
+              activeCategory === category ? " active" : ""
+            }`}
+            onClick={() => onCategoryClick(category)}
             tabIndex={0}
             role="button"
             style={{ userSelect: "none" }}

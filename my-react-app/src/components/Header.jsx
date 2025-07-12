@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/header.css";
-import logo from "../assets/mamadiiatalia.png"; // Adjust the path/extension if needed
+import logo from "../assets/logo1.png"; // Adjust the path/extension if needed
 
 const Header = () => {
   return (

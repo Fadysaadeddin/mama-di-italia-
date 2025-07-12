@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import menuData from "../data/menuData";
 import "../styles/menu.css";
 
-const Menu = () => {
+const Menu = ({ activeCategory }) => {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const handleCardClick = (item) => {
@@ -13,15 +13,16 @@ const Menu = () => {
     setSelectedItem(null);
   };
 
+  const items = activeCategory ? menuData[activeCategory] || [] : [];
+
   return (
     <div className="menu-container">
-      {Object.entries(menuData).map(([category, items]) => (
+      {activeCategory ? (
         <div
-          key={category}
           className="menu-section"
-          id={category.replace(/\s+/g, "").toLowerCase()}
+          id={activeCategory.replace(/\s+/g, "").toLowerCase()}
         >
-          <h2 className="category-title">{category}</h2>
+          <h2 className="category-title">{activeCategory}</h2>
           <div className="menu-grid">
             {items.map((item) => (
               <div
@@ -44,7 +45,12 @@ const Menu = () => {
             ))}
           </div>
         </div>
-      ))}
+      ) : (
+        // Render an empty menu-section for consistent padding/background
+        <div className="menu-section" style={{ minHeight: "120px" }}>
+          {/* Optionally, you can add a placeholder or leave it empty */}
+        </div>
+      )}
 
       {selectedItem && (
         <div className="menu-modal-overlay" onClick={closeModal}>

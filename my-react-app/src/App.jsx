@@ -6,6 +6,7 @@ import "./App.css";
 
 function App() {
   const [showArrow, setShowArrow] = useState(false);
+  const [activeCategory, setActiveCategory] = useState(null);
 
   useEffect(() => {
     const onScroll = () => {
@@ -22,8 +23,11 @@ function App() {
   return (
     <>
       <Header />
-      <CategoriesScroller />
-      <Menu />
+      <CategoriesScroller
+        onCategoryClick={setActiveCategory}
+        activeCategory={activeCategory}
+      />
+      <Menu activeCategory={activeCategory} />
       {showArrow && (
         <button
           className="scroll-to-top-arrow scroll-to-top-arrow-center"
